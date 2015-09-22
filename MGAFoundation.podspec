@@ -1,30 +1,15 @@
-#
-# Be sure to run `pod lib lint MGAFoundation.podspec' to ensure this is a
-# valid spec before submitting.
-#
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
-#
-
 Pod::Spec.new do |s|
   s.name             = "MGAFoundation"
   s.version          = "0.1.0"
-  s.summary          = "A short description of MGAFoundation."
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!  
+  s.summary          = "MGAFoundation is a Swift framework which extends and adds convenience classes / methods to standard Foundation classes."
   s.description      = <<-DESC
+                        * MGAFoundation is a Swift framework that adds convenience methods and classes to Foundation to make it easier to perform certain tasks
                        DESC
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/MGAFoundation"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+  s.homepage         = "https://github.com/mcjg/MGAFoundation"
   s.license          = 'MIT'
   s.author           = { "Matt Green" => "mattgreen1977@gmail.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/MGAFoundation.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => "https://github.com/mcjg/MGAFoundation.git", :tag => s.version.to_s }
 
   s.platform     = :ios, '8.0'
   s.requires_arc = true
@@ -34,7 +19,4 @@ Pod::Spec.new do |s|
     'MGAFoundation' => ['Pod/Assets/*.png']
   }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end

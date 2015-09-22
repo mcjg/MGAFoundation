@@ -1,0 +1,25 @@
+{
+  "name": "MGAFoundation",
+  "version": "0.1.0",
+  "summary": "A short description of MGAFoundation.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/MGAFoundation",
+  "license": "MIT",
+  "authors": {
+    "Matt Green": "mattgreen1977@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/MGAFoundation.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "MGAFoundation": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}

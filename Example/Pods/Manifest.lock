@@ -1,0 +1,23 @@
+PODS:
+  - FBSnapshotTestCase (1.8.1)
+  - MGAFoundation (0.1.0)
+  - Nimble (2.0.0-rc.3)
+  - Quick (0.6.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - MGAFoundation (from `../`)
+  - Nimble (= 2.0.0-rc.3)
+  - Quick (~> 0.6.0)
+
+EXTERNAL SOURCES:
+  MGAFoundation:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 3dc3899168747a0319c5278f5b3445c13a6532dd
+  MGAFoundation: cb67f38341efab5c896e41a95d443526a42e01e5
+  Nimble: 9dff98ee195ffe7351d3b2fb01d3a1420fd97948
+  Quick: 563686dbcf0ae0f9f7401ac9cd2d786ee1b7f3d7
+
+COCOAPODS: 0.38.2

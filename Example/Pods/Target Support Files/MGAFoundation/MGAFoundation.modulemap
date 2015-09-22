@@ -1,0 +1,6 @@
+framework module MGAFoundation {
+  umbrella header "MGAFoundation-umbrella.h"
+
+  export *
+  module * { export * }
+}
